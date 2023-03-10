@@ -67,7 +67,7 @@ it("should authenticate user creadentials successfully", async () => {
 
   expect(mockAxios.post).toHaveBeenCalledTimes(1);
   expect(mockAxios.post).toHaveBeenCalledWith(
-    `http://3.83.221.40:8080/authenticate`,
+    `http://44.211.193.222:8080/authenticate`,
     {
       password: "123",
       username: "user",

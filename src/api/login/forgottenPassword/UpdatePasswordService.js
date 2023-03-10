@@ -4,7 +4,7 @@ const UpdatePasswordService = (id, password) => {
   console.log(id, password);
 
   try {
-    return axios.put(`http://3.83.221.40:8080/password`, null, {
+    return axios.put(`http://44.211.193.222:8080/password`, null, {
       params: {
         id,
         password,

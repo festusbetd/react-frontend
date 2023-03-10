@@ -65,7 +65,7 @@ it("should update password correctly", async () => {
 
   expect(mockAxios.post).toHaveBeenCalledTimes(1);
   expect(mockAxios.post).toHaveBeenCalledWith(
-    `http://3.83.221.40:8080/password`,
+    `http://44.211.193.222:8080/password`,
     null,
     { params: { id: "1", password: "n87" } }
   );
